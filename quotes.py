@@ -1,5 +1,5 @@
 print("################### YOUR QUOTE BUCKET #################")
-
+print('\n')
 lists=[]
 
 add=1
@@ -16,7 +16,7 @@ while add:
 #clear
 
 ans=input("Do you want to list all quotes? y/n :\n")
-
+print('\n')
 if ans=='y':
     for quotes in lists:
         print(quotes)
